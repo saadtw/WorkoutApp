@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "foodApp",
-    "slug": "foodApp",
+    "name": "WorkoutApp",
+    "slug": "WorkoutApp",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -21,10 +21,17 @@
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.saadtw.WorkoutApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "newArchEnabled": true,
+    "extra": {
+      "eas": {
+        "projectId": "9ec4ddbb-8666-47c9-bc82-7e18923405f5"
+      }
     }
   }
 }
